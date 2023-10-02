@@ -354,11 +354,7 @@ Bangalore..</p>
             </div>
         </div>
 
-        {/* <TestimonialOne/> */}
-        {/* <PortfolioOne/> */}
-        {/* <TeamOne/> */}
-        {/* <FaqOne/> */}
-        {/* <BlogOne/> */}
+
         <FooterOne/>
         </>
     )
