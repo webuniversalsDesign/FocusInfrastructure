@@ -1,7 +1,6 @@
 {
-  "name": "Focus Infrastructures",
+  "name": "FocusInfrastructures",
   "version": "1.0",
-"homepage": "https://yourchoicewebsites.com/FocusInfrastructures/",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.2.0",
