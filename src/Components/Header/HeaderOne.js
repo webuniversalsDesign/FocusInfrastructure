@@ -42,7 +42,7 @@ const HeaderOne = () => {
                                 <li><Link to="/homeFour">homepage 4</Link></li>
                             </ul> */}
                         </li>
-                        <li><Link to="/">about us</Link></li>
+                        <li><Link to="/about">about us</Link></li>
                         <li><Link to="/">Services</Link></li>
                         {/* <li><a href="#">Pages <i className="fal fa-plus"></i></a>
                             <ul className="sub-menu">
