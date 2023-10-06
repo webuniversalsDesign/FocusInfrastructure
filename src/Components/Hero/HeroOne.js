@@ -32,7 +32,7 @@ const HeroOne = () => {
                                 <p className="pe-lg-5 wow fadeInLeft animated" data-wow-duration="1.3s" data-wow-delay=".4s">We are delighted to announce that we have changed the name of our company to
 Focus Infrastructures.</p>
                                 <Link to="/contact" className="theme-btn me-sm-4 wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".8s">contact us</Link>
-                                <Link to="/" className="plus-text-btn wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".6s">
+                                <Link to="/about" className="plus-text-btn wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".6s">
                                     <div className="icon">
                                         <i className="fas fa-plus"></i>
                                     </div>
@@ -54,7 +54,7 @@ Focus Infrastructures.</p>
                                 <h1 className="fs-lg wow fadeInLeft animated" data-wow-duration="1.3s">we build Your Dream</h1>
                                 <p className="pe-lg-5 wow fadeInLeft animated" data-wow-duration="1.3s" data-wow-delay=".4s">The change stated above occurred in accordance to our customers and partners.</p>
                                 <Link to="/contact" className="theme-btn me-sm-4 wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".8s">contact us</Link>
-                                <Link to="/" className="plus-text-btn wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".6s">
+                                <Link to="/about" className="plus-text-btn wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".6s">
                                     <div className="icon">
                                         <i className="fas fa-plus"></i>
                                     </div>
@@ -77,7 +77,7 @@ Focus Infrastructures.</p>
                                 <h1 className="fs-lg wow fadeInLeft animated" data-wow-duration="1.3s">we build Your Dream</h1>
                                 <p className="pe-lg-5 wow fadeInLeft animated" data-wow-duration="1.3s" data-wow-delay=".4s">By rebranding ourselves and becoming one complete closure solutions company.</p>
                                 <Link to="/contact" className="theme-btn me-sm-4 wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".8s">contact us</Link>
-                                <Link to="/" className="plus-text-btn wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".6s">
+                                <Link to="/about" className="plus-text-btn wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".6s">
                                     <div className="icon">
                                         <i className="fas fa-plus"></i>
                                     </div>
@@ -100,7 +100,7 @@ Focus Infrastructures.</p>
                                 <h1 className="fs-lg wow fadeInLeft animated" data-wow-duration="1.3s">we build Your Dream</h1>
                                 <p className="pe-lg-5 wow fadeInLeft animated" data-wow-duration="1.3s" data-wow-delay=".4s">By rebranding ourselves and becoming one complete closure solutions company.</p>
                                 <Link to="/contact" className="theme-btn me-sm-4 wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".8s">contact us</Link>
-                                <Link to="/" className="plus-text-btn wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".6s">
+                                <Link to="/about" className="plus-text-btn wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".6s">
                                     <div className="icon">
                                         <i className="fas fa-plus"></i>
                                     </div>
@@ -123,7 +123,7 @@ Focus Infrastructures.</p>
                                 <h1 className="fs-lg wow fadeInLeft animated" data-wow-duration="1.3s">we build Your Dream</h1>
                                 <p className="pe-lg-5 wow fadeInLeft animated" data-wow-duration="1.3s" data-wow-delay=".4s">By rebranding ourselves and becoming one complete closure solutions company.</p>
                                 <Link to="/contact" className="theme-btn me-sm-4 wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".8s">contact us</Link>
-                                <Link to="/" className="plus-text-btn wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".6s">
+                                <Link to="/about" className="plus-text-btn wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".6s">
                                     <div className="icon">
                                         <i className="fas fa-plus"></i>
                                     </div>
