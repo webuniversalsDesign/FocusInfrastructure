@@ -16,10 +16,10 @@ const HeroOne = () => {
     return (
         <section className="hero-wrapper hero-1">
         <Swiper navigation={true} modules={[Navigation, Autoplay]} 
-        //  autoplay={{
-        //   delay: 3500,
-        //   disableOnInteraction: false,
-        // }}
+         autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
         
         loop>
             <SwiperSlide className=" bg-cover img-resp" style={{backgroundImage: `url(${slide1})`}}>
