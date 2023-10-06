@@ -50,10 +50,23 @@ const ServicesOne = () => {
                             <div className="single-service-box style-1">
                                 <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg1})`}}></div>
                                 <div className="icon">
+                                 <MdSwitchAccount/>
+                                </div>
+                                <div className="contents">
+                                    <h4><Link to="/">ACCOUNT  MANAGER</Link></h4>
+                                    {/* <p>{data.desc}</p> */}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-md-6 col-12 col-lg-4 mt-30" >
+                            <div className="single-service-box style-1">
+                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg1})`}}></div>
+                                <div className="icon">
                                  <LuPackageSearch/>
                                 </div>
                                 <div className="contents">
-                                    <h4><Link to="/">PROCUREMENT BOX</Link></h4>
+                                    <h4><Link to="/">PROCUREMENT </Link></h4>
                                     {/* <p>{data.desc}</p> */}
                                 </div>
                             </div>
@@ -85,18 +98,7 @@ const ServicesOne = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-12 col-lg-4 mt-30" >
-                            <div className="single-service-box style-1">
-                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg1})`}}></div>
-                                <div className="icon">
-                                 <MdSwitchAccount/>
-                                </div>
-                                <div className="contents">
-                                    <h4><Link to="/">ACCOUNT  MANAGER</Link></h4>
-                                    {/* <p>{data.desc}</p> */}
-                                </div>
-                            </div>
-                        </div>
+                        
 
                         <div className="col-md-6 col-12 col-lg-4 mt-30" >
                             <div className="single-service-box style-1">
