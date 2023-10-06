@@ -34,7 +34,7 @@ const HeaderOne = () => {
             <div className="header-right-area d-flex">
                 <div className="main-menu d-none d-xl-block">
                     <ul>
-                        <li><a href="#">Home </a>
+                        <li><Link to="/">Home </Link>
                             {/* <ul className="sub-menu">
                                 <li><Link to="/">homepage 1</Link></li>
                                 <li><Link to="/homeTwo">homepage 2</Link></li>
@@ -53,7 +53,7 @@ const HeaderOne = () => {
                             </ul>
                         </li> */}
                         {/* <li><Link to="/">News</Link></li> */}
-                        <li><Link to="/">Contact</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
                         {/* <li>
                             <a href="#" onClick={handleSearch} className="search-btn"><i className="fas fa-search"></i></a>
                             <div className={search ? 'search-box' : 'search-box show'}>
@@ -66,7 +66,7 @@ const HeaderOne = () => {
                     </ul>
                 </div>
                 <div className="header-right-elements d-flex align-items-center justify-content-between">
-                    <Link to="/" className="theme-btn d-none d-sm-block">Get in touch</Link>
+                    <Link to="/contact" className="theme-btn d-none d-sm-block">Get in touch</Link>
            
                     <div className="d-inline-block ms-4 d-xl-none">
                         <div className="mobile-nav-wrap">                    

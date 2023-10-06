@@ -7,7 +7,7 @@ import brandCarouselOneData from "./BrandCarouselOneData";
 
 const BrandCarouselThree = () => {
   return (
-    <div className="brand-carousel-wrapper section-padding">
+    <div className="brand-carousel-wrapper">
     <div className="container">
         <div className="row">
             <div className="col-xl-12 col-12">

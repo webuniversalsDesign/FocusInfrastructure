@@ -53,16 +53,17 @@ const ContactPageContents = () => {
                                 </div>
                                 <div className="text">
                                     <span>Email Us</span>
-                                    <h5>info@example.com</h5>
+                                    <p style={{color:"#001659", fontWeight:"500"}}><a href="mailto:focusInfrastructures@gmail.com">focusInfrastructures@gmail.com</a></p>
                                 </div>
                             </div>
                             <div className="single-info">
                                 <div className="icon">
                                     <i className="flaticon-phone-call-1" />
                                 </div>
+                                <br/>
                                 <div className="text">
                                     <span>Call Us</span>
-                                    <h5>+673 853 605 985</h5>
+                                    <p style={{color:"#001659", fontWeight:"500"}}>000 XXX XXX</p>
                                 </div>
                             </div>
                             <div className="single-info">
@@ -71,16 +72,16 @@ const ContactPageContents = () => {
                                 </div>
                                 <div className="text">
                                     <span>Location</span>
-                                    <h5>4821 Mainer St NY, USA</h5>
+                                    <p style={{color:"#001659", fontWeight:"500"}}>#323, 3rd Floor, 12th 'B' Cross, 6th Main, West of chord Road 2nd Stage Mahalaxmipuram Bangalore</p>
                                 </div>
                             </div>
                         </div>
-                        <div className="live-chat">
+                        {/* <div className="live-chat">
                             <h2>Live Chat</h2>
                             <p>You can contact us on chat and explain 
                             your problems</p>
                             <Link to="/about"><i className="flaticon-chatting" /> Live Chat to Executive</Link>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 </div>

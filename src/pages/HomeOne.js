@@ -233,14 +233,14 @@ specifications, luxurious landscapes and best in line amenities.</p>
                            
                                
                                         <SwiperSlide className="single-brand-logo">
-                                        <div className="single-service-box2 style-1">
-                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg1})`}}></div>
+                                        <div className="single-service-box2 style-1" style={{backgroundImage: `url(${bg1})`}}>
+                                <div className="service-bg bg-cover" ></div>
                                 <div className="icon">
                             
                                 </div>
                                 <div className="contents">
                                     {/* <h4><Link to="/servicesDetails">MANAGI</Link></h4> */}
-                                    <p className='text-justify'>As we are successfully come out with 
+                                    <p className='text-justify' style={{color:"white"}}>As we are successfully come out with 
 Client satisfaction of painting activity in 
 Shell (Bellandur) from last 4 years, by 
 implementation of safety measures and 
@@ -253,14 +253,14 @@ Engineers.</p>
                                     </SwiperSlide>
 
                                     <SwiperSlide className="single-brand-logo">
-                                        <div className="single-service-box2 style-1">
-                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg2})`}}></div>
+                                        <div className="single-service-box2 style-1" style={{backgroundImage: `url(${bg2})`}}>
+                                <div className="service-bg bg-cover" ></div>
                                 <div className="icon">
                             
                                 </div>
                                 <div className="contents">
                                     {/* <h4><Link to="/servicesDetails">MANAGING  DIRECTOR</Link></h4> */}
-                                    <p className="text-justify">We have Worked on 6 New ODC Setup with a
+                                    <p className="text-justify" style={{color:"white"}}>We have Worked on 6 New ODC Setup with a
 huge floor modification setup of around 25,000
 Sqft Area with all standards in place to match
 the existing Setup.</p>
@@ -269,14 +269,14 @@ the existing Setup.</p>
                                     </SwiperSlide>
 
                                     <SwiperSlide className="single-brand-logo">
-                                        <div className="single-service-box2 style-1">
-                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg3})`}}></div>
+                                        <div className="single-service-box2 style-1" style={{backgroundImage: `url(${bg3})`}}>
+                                <div className="service-bg bg-cover" ></div>
                                 <div className="icon">
                             
                                 </div>
                                 <div className="contents">
                                     {/* <h4><Link to="/servicesDetails">MANAGING  DIRECTOR</Link></h4> */}
-                                    <p className="text-justify">We have Wide range of hands on FAFA System, 
+                                    <p className="text-justify" style={{color:"white"}}>We have Wide range of hands on FAFA System, 
 HVAC, Fire systems, by supplying and installation 
 of Newly organized setup and have successfully
 delivered the out up technically as per client
@@ -286,14 +286,14 @@ requirement.</p>
                                     </SwiperSlide>
 
                                     <SwiperSlide className="single-brand-logo">
-                                        <div className="single-service-box2 style-1">
-                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg4})`}}></div>
+                                        <div className="single-service-box2 style-1" style={{backgroundImage: `url(${bg4})`}}>
+                                <div className="service-bg bg-cover" ></div>
                                 <div className="icon">
                             
                                 </div>
                                 <div className="contents">
-                                    {/* <h4><Link to="/servicesDetails">MANAGING  DIRECTOR</Link></h4> */}
-                                    <p className="text-justify">We have Greater Exposure Working with 
+                                    {/* <h4><Link to="/services Details">MANAGING  DIRECTOR</Link></h4> */}
+                                    <p className="text-justify" style={{color:"white"}}>We have Greater Exposure Working with 
 Shell - STCB on various Projects like 
 Racetrack, water proofing, IH2, WTP, 
 Hydrant leakage, AV Remediation, Soft 
@@ -303,14 +303,14 @@ Water Work,</p>
                                     </SwiperSlide>
 
                                     <SwiperSlide className="single-brand-logo">
-                                        <div className="single-service-box2 style-1">
-                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg5})`}}></div>
+                                        <div className="single-service-box2 style-1" style={{backgroundImage: `url(${bg5})`}}>
+                                <div className="service-bg bg-cover" ></div>
                                 <div className="icon">
                             
                                 </div>
                                 <div className="contents">
                                     {/* <h4><Link to="/servicesDetails">MANAGING  DIRECTOR</Link></h4> */}
-                                    <p className="text-justify">Specialized in development of RPWD
+                                    <p className="text-justify" style={{color:"white"}}>Specialized in development of RPWD
 Rest Rooms and wheelchair Ramps for 
 RPWD by implementing all standards 
 in place as per Harmonized Guidelines.</p>
@@ -319,14 +319,14 @@ in place as per Harmonized Guidelines.</p>
                                     </SwiperSlide>
 
                                     <SwiperSlide className="single-brand-logo">
-                                        <div className="single-service-box2 style-1">
-                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg6})`}}></div>
+                                        <div className="single-service-box2 style-1" style={{backgroundImage: `url(${bg6})`}}>
+                                <div className="service-bg bg-cover" ></div>
                                 <div className="icon">
                             
                                 </div>
                                 <div className="contents">
                                     {/* <h4><Link to="/servicesDetails">MANAGING  DIRECTOR</Link></h4> */}
-                                    <p className="text-justify">We are into all kind of flooring 
+                                    <p className="text-justify" style={{color:"white"}}>We are into all kind of flooring 
 works, Displayed few of the 
 pics during execution on site.</p>
                                 </div>
@@ -334,14 +334,14 @@ pics during execution on site.</p>
                                     </SwiperSlide>
 
                                     <SwiperSlide className="single-brand-logo">
-                                        <div className="single-service-box2 style-1">
-                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg7})`}}></div>
+                                        <div className="single-service-box2 style-1" style={{backgroundImage: `url(${bg7})`}}>
+                                <div className="service-bg bg-cover" ></div>
                                 <div className="icon">
                             
                                 </div>
                                 <div className="contents">
                                     {/* <h4><Link to="/servicesDetails">MANAGING  DIRECTOR</Link></h4> */}
-                                    <p className="text-justify">We are builders & have our own construction company in Bangalore, we have 
+                                    <p className="text-justify" style={{color:"white"}}>We are builders & have our own construction company in Bangalore, we have 
 executed several projects villas, independent bungalows & apartments in west 
 Bangalore..</p>
                                 </div>

@@ -2,10 +2,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import brandCarouselOneData from "./BrandCarouselOneData";
+import {Autoplay } from "swiper";
 
 const BrandCarouselOne = () => {
     return (
-        <div className="brand-carousel-wrapper dot-bg section-padding">
+        <div className="brand-carousel-wrapper dot-bg pt-5 pb-5">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-12 col-12">
@@ -14,6 +15,10 @@ const BrandCarouselOne = () => {
                                 slidesPerView={5} 
                                 spaceBetween={20} 
                                 loop
+                                autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}    
                                 breakpoints={{
                                     "@0.00": {
                                       slidesPerView: 2,
@@ -35,6 +40,8 @@ const BrandCarouselOne = () => {
                                       spaceBetween: 40,
                                     },
                                   }}
+
+                                  modules={[Autoplay]} 
                             >
                                 {
                                     brandCarouselOneData.map((data) =>(

@@ -22,7 +22,7 @@ const WorkProcess = () => {
                                 </div>
                                 <div className="contents">
                                     {/* <span>{data.subTitle}</span> */}
-                                    <h5 className="text-center">CREATIVITY</h5>
+                                    <h5 className="text-center">CREATIVITY </h5>
                                     {/* <p>{data.desc}</p> */}
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const WorkProcess = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 border-right col-xl-4 col-12" >
+                        <div className="col-md-6 col-lg-4  col-xl-4 col-12" >
                             <div className="single-work-process-item">
                                 <div className="icon d-flex justify-content-center">
                                     <BsBuildings />

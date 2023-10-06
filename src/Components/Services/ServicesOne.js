@@ -2,8 +2,9 @@ import { Link } from "react-router-dom";
 import servicesOneData from "./servicesOneData";
 import bg1 from '../../assets/img/brand-logo/Chart.jpg';
 import { TbAdjustmentsCog } from "react-icons/tb";
-import { BsShieldFillCheck } from "react-icons/bs";
-import { FaGraduationCap } from "react-icons/fa";
+import { BsShieldFillCheck, BsPersonFillGear } from "react-icons/bs";
+// import { FaGraduationCap } from "react-icons/fa";
+import { LuPackageSearch } from "react-icons/lu";
 import { MdEngineering, MdSwitchAccount } from "react-icons/md";
 
 
@@ -11,16 +12,24 @@ const ServicesOne = () => {
     return (
         <section className="our-service-wrapper section-padding bg-gray">
         <div className="container">
-            <div className="row mtm-30">
-                <div className="col-md-6 col-12 col-lg-4 mt-30">
-                    <div className="block-contents">
+
+        <div className="block-contents">
                         <div className="section-title">
                             {/* <span>02. Featured Service</span> */}
                             <h2>Company Hierarchy Chart</h2>
                         </div>
                         {/* <p>Our promise as a contractor is to build strong community value into every projects</p> */}
                     </div>
-                </div>
+            <div className="row mtm-30">
+                {/* <div className="col-md-6 col-12 col-lg-4 mt-30">
+                    <div className="block-contents">
+                        <div className="section-title">
+                         <span>02. Featured Service</span> 
+                            <h2>Company Hierarchy Chart</h2>
+                        </div>
+                        <p>Our promise as a contractor is to build strong community value into every projects</p> 
+                    </div>
+                </div>  */}
   
                   
 
@@ -31,7 +40,7 @@ const ServicesOne = () => {
                                  <TbAdjustmentsCog/>
                                 </div>
                                 <div className="contents">
-                                    <h4><Link to="/servicesDetails">MANAGING  DIRECTOR</Link></h4>
+                                    <h4><Link to="/">MANAGING  DIRECTOR</Link></h4>
                                     {/* <p>{data.desc}</p> */}
                                 </div>
                             </div>
@@ -41,15 +50,28 @@ const ServicesOne = () => {
                             <div className="single-service-box style-1">
                                 <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg1})`}}></div>
                                 <div className="icon">
-                                 <FaGraduationCap/>
+                                 <LuPackageSearch/>
                                 </div>
                                 <div className="contents">
-                                    <h4><Link to="/servicesDetails">BUSINESS  HEAD</Link></h4>
+                                    <h4><Link to="/">PROCUREMENT BOX</Link></h4>
                                     {/* <p>{data.desc}</p> */}
                                 </div>
                             </div>
                         </div>
-
+                        
+                        <div className="col-md-6 col-12 col-lg-4 mt-30" >
+                            <div className="single-service-box style-1">
+                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg1})`}}></div>
+                                <div className="icon">
+                                 <BsPersonFillGear/>
+                                </div>
+                                <div className="contents">
+                                    <h4><Link to="/">PROJECT CO-ORDINATOR</Link></h4>
+                                    {/* <p>{data.desc}</p> */}
+                                </div>
+                            </div>
+                        </div>
+               
                         <div className="col-md-6 col-12 col-lg-4 mt-30" >
                             <div className="single-service-box style-1">
                                 <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg1})`}}></div>
@@ -57,7 +79,7 @@ const ServicesOne = () => {
                                  <BsShieldFillCheck/>
                                 </div>
                                 <div className="contents">
-                                    <h4><Link to="/servicesDetails">SAFETY  CONSULTANT</Link></h4>
+                                    <h4><Link to="/">SAFETY  CONSULTANT</Link></h4>
                                     {/* <p>{data.desc}</p> */}
                                 </div>
                             </div>
@@ -70,7 +92,7 @@ const ServicesOne = () => {
                                  <MdSwitchAccount/>
                                 </div>
                                 <div className="contents">
-                                    <h4><Link to="/servicesDetails">ACCOUNT  MANAGER</Link></h4>
+                                    <h4><Link to="/">ACCOUNT  MANAGER</Link></h4>
                                     {/* <p>{data.desc}</p> */}
                                 </div>
                             </div>
@@ -83,7 +105,8 @@ const ServicesOne = () => {
                                  <MdEngineering/>
                                 </div>
                                 <div className="contents">
-                                    <h4><Link to="/servicesDetails">SITE ENGINEER</Link></h4>
+                                    <h4><Link to="/">SITE ENGINEER</Link></h4>
+                                    {/* <h4><Link to="/servicesDetails">SITE ENGINEER</Link></h4> */}
                                     {/* <p>{data.desc}</p> */}
                                 </div>
                             </div>
