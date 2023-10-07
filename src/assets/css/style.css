@@ -4851,6 +4851,37 @@ header .header-top-bar .top-social-icons a:hover {
   margin-top: 30px;
 }
 
+.p-item{
+  cursor: pointer;
+}
+
+
+
+.item-icon{
+  transition: all 0.4s ease-in-out;
+transform: rotateX(0deg);
+
+}
+
+.p-item:hover .item-icon{
+color: black;
+transform: rotateX(359deg);
+}
+
+.single-service-box:hover .icon{
+  font-size: 70px;
+}
+
+.single-service-box .icon {
+  position: absolute;
+  color: #FF5E14;
+  font-size: 54px;
+  line-height: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
 @media (max-width: 1050px) {
   .single-work-process-item {
     max-width: 280px;
@@ -5098,11 +5129,7 @@ header .header-top-bar .top-social-icons a:hover {
   z-index: -1;
 }
 
-.single-service-box .icon {
-  color: #FF5E14;
-  font-size: 54px;
-  line-height: 1;
-}
+
 
 .single-service-box .contents h4 {
   margin: 20px 0px;
@@ -5235,6 +5262,10 @@ header .header-top-bar .top-social-icons a:hover {
   height: 550px;
 }
 
+.single-service-box{
+  height: 180px;
+  }
+
 }
 
 @media only screen and (min-width:786px){
@@ -5254,6 +5285,10 @@ header .header-top-bar .top-social-icons a:hover {
   
 }
 
+.single-service-box{
+  height: 190px;
+  }
+
 .img-resp{
   height: 620px;
 }
@@ -5265,10 +5300,21 @@ header .header-top-bar .top-social-icons a:hover {
   
 }
 
+.single-service-box{
+height: 200px;
+}
+
 .img-resp{
   height: 710px;
 }
 }
+
+.resp-content{
+  position: absolute;
+  bottom: 4%;
+  }
+
+
 /* -------- */
 
 .single-service-card {

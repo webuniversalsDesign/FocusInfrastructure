@@ -16,7 +16,12 @@ import HomeFour from './pages/HomeFour';
 import ProjectPage from './pages/ProjectPage';
 import ContactPage from './pages/ContactPage';
 
-
+import ManagingDirector from './pages/ManagingDirector';
+import Accountmanager from './pages/Accountmanager';
+import Procurement from './pages/Procurement';
+import Projectcoordinator from './pages/Projectcoordinator';
+import Safetyconsultant from './pages/Safetyconsultant';
+import Siteengineer from './pages/Siteengineer';
 function App() {
 
     return (
@@ -37,6 +42,16 @@ function App() {
         <Route path="/servicesDetails" element={<ServiceDetails />} />
         <Route path="/news" element={<News />} />
         <Route path="/projects" element={<ProjectPage />} />
+
+        <Route path="/ManagingDirector" element={<ManagingDirector />} />
+        <Route path="/Accountmanager" element={<Accountmanager />} />
+        <Route path="/Procurement" element={<Procurement />} />
+        <Route path="/Projectcoordinator" element={<Projectcoordinator />} />
+        <Route path="/Safetyconsultant" element={<Safetyconsultant />} />
+        <Route path="/Siteengineer" element={<Siteengineer />} />
+        
+        
+
       </Routes>
     </>
     )

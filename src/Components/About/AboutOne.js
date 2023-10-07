@@ -32,7 +32,7 @@ const AboutOne = ({pt}) => {
                         <div className="block-contents">
                             <div className="section-title">
                                 <span>About Company</span>
-                                <h2>creative building design company</h2>
+                                <h2>Excellence in every project</h2>
                             </div>
                             <p className='text-justify'>Focus Established in the year 2007, it's been 15 years our expertise across infrastructure domains is evident through the 
 successful execution of various projects covering the below.</p>

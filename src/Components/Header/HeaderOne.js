@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import mainLogo from '../../assets/img/logoFocus.png';
 import MobileMenu from "./MobileMenu";
 import OffsetMenu from "./OffsetMenu";
+import {FiPhoneCall} from 'react-icons/fi'
 
 const HeaderOne = () => {
   const [search, setSearch] = useState(true);
@@ -44,12 +45,14 @@ const HeaderOne = () => {
                         </li>
                         <li><Link to="/about">about us</Link></li>
                         <li><Link to="/">Services</Link></li>
-                        {/* <li><a href="#">Pages <i className="fal fa-plus"></i></a>
+                        {/* <li><a href="#">Service <i className="fal fa-plus"></i></a>
                             <ul className="sub-menu">
-                                <li><Link to="/Team">team</Link></li>
-                                <li><Link to="/faq">faq</Link></li>
-                                <li><Link to="/projects">projects</Link></li>
-                                <li><Link to="/pricing">Pricing</Link></li>
+                                <li><Link to="/ManagingDirector">MANAGING  DIRECTOR</Link></li>
+                                <li><Link to="/Accountmanager">ACCOUNT  MANAGER</Link></li>
+                                <li><Link to="/Procurement">PROCUREMENT</Link></li>
+                                <li><Link to="/Projectcoordinator">PROJECT CO-ORDINATOR</Link></li>
+                                <li><Link to="/Safetyconsultant">SAFETY  CONSULTANT</Link></li>
+                                <li><Link to="/Siteengineer">Site Engineer</Link></li>
                             </ul>
                         </li> */}
                         {/* <li><Link to="/">News</Link></li> */}
@@ -66,7 +69,7 @@ const HeaderOne = () => {
                     </ul>
                 </div>
                 <div className="header-right-elements d-flex align-items-center justify-content-between">
-                    <Link to="/contact" className="theme-btn d-none d-sm-block">Get in touch</Link>
+                    <a href="tel:" className="theme-btn d-none d-sm-block"><FiPhoneCall style={{fontSize:"20px"}}/> &nbsp; Get in touch</a>
            
                     <div className="d-inline-block ms-4 d-xl-none">
                         <div className="mobile-nav-wrap">                    

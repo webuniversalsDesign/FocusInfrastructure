@@ -15,10 +15,10 @@ const WorkProcess = () => {
         <div className="container">
             <div className="row">
                
-                        <div className="col-md-6 col-lg-4 border-right col-xl-4 col-12" >
+                        <div className="col-md-6 col-lg-4 border-right col-xl-4 col-12 p-item" >
                             <div className="single-work-process-item">
                                 <div className="icon d-flex justify-content-center">
-                                    <VscGitPullRequestCreate />
+                                    <VscGitPullRequestCreate className="item-icon"/>
                                 </div>
                                 <div className="contents">
                                     {/* <span>{data.subTitle}</span> */}
@@ -28,23 +28,23 @@ const WorkProcess = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 border-right col-xl-4 col-12" >
+                        <div className="col-md-6 col-lg-4 border-right col-xl-4 col-12 p-item" >
                             <div className="single-work-process-item">
                                 <div className="icon d-flex justify-content-center">
-                                    <MdOutlineHealthAndSafety />
+                                    <MdOutlineHealthAndSafety className="item-icon"/>
                                 </div>
                                 <div className="contents">
                                     {/* <span>{data.subTitle}</span> */}
-                                    <h5 className="text-center">Safety</h5>
+                                    <h5 className="text-center">Safety</h5> 
                                     {/* <p>{data.desc}</p> */}
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4  col-xl-4 col-12" >
+                        <div className="col-md-6 col-lg-4  col-xl-4 col-12 p-item" >
                             <div className="single-work-process-item">
                                 <div className="icon d-flex justify-content-center">
-                                    <BsBuildings />
+                                    <BsBuildings className="item-icon"/>
                                 </div>
                                 <div className="contents">
                                     {/* <span>{data.subTitle}</span> */}
@@ -54,10 +54,10 @@ const WorkProcess = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 border-right col-xl-4 col-12" >
+                        <div className="col-md-6 col-lg-4 border-right col-xl-4 col-12 p-item" >
                             <div className="single-work-process-item">
                                 <div className="icon d-flex justify-content-center">
-                                    <TbSettingsCog />
+                                    <TbSettingsCog className="item-icon"/>
                                 </div>
                                 <div className="contents">
                                     {/* <span>{data.subTitle}</span> */}
@@ -67,10 +67,10 @@ const WorkProcess = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 border-right col-xl-4 col-12" >
+                        <div className="col-md-6 col-lg-4 border-right col-xl-4 col-12 p-item" >
                             <div className="single-work-process-item">
                                 <div className="icon d-flex justify-content-center">
-                                    <PiHandshakeBold />
+                                    <PiHandshakeBold className="item-icon"/>
                                 </div>
                                 <div className="contents">
                                     {/* <span>{data.subTitle}</span> */}
@@ -80,10 +80,10 @@ const WorkProcess = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-lg-4 border-right col-xl-4 col-12" >
+                        <div className="col-md-6 col-lg-4 border-right col-xl-4 col-12 p-item" >
                             <div className="single-work-process-item">
                                 <div className="icon d-flex justify-content-center">
-                                    <RiStarSmileLine />
+                                    <RiStarSmileLine className="item-icon"/>
                                 </div>
                                 <div className="contents">
                                     {/* <span>{data.subTitle}</span> */}
