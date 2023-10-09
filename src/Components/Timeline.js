@@ -37,9 +37,10 @@ or design -bid - build, fixed price, and negotiated contracts.
 
             <div className="row mt-lg-5 mt-3">
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={conEnginner} alt="icon-not-found"/>
+                        <img src={conEnginner} alt="icon-not-found" className="icons-box-ani"/>
                         </div>
                         <div className="content">
                             <h6><span>Construction</span> engineering
@@ -49,9 +50,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={carpenterWork} alt="icon-not-found"/>
+                        <img src={carpenterWork} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -61,9 +63,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={saffolding} alt="icon-not-found"/>
+                        <img src={saffolding} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -73,9 +76,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={fabiraction} alt="icon-not-found"/>
+                        <img src={fabiraction} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -85,9 +89,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={roof} alt="icon-not-found"/>
+                        <img src={roof} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -97,9 +102,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={electricwork} alt="icon-not-found"/>
+                        <img src={electricwork} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -109,9 +115,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={plumbwork} alt="icon-not-found"/>
+                        <img src={plumbwork} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -122,9 +129,10 @@ or design -bid - build, fixed price, and negotiated contracts.
 
               
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={tailflooring} alt="icon-not-found"/>
+                        <img src={tailflooring} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -134,9 +142,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={steelwork} alt="icon-not-found"/>
+                        <img src={steelwork} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -146,9 +155,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={glasswork} alt="icon-not-found"/>
+                        <img src={glasswork} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -158,9 +168,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={mechwork} alt="icon-not-found"/>
+                        <img src={mechwork} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -170,9 +181,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={waterprof} alt="icon-not-found"/>
+                        <img src={waterprof} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -182,9 +194,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={interiorwork} alt="icon-not-found"/>
+                        <img src={interiorwork} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -194,9 +207,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={paintwork} alt="icon-not-found"/>
+                        <img src={paintwork} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -206,9 +220,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={machineinstall} alt="icon-not-found"/>
+                        <img src={machineinstall} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -218,9 +233,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={telesupport} alt="icon-not-found"/>
+                        <img src={telesupport} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -230,7 +246,8 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
                         <img src={hvac} alt="icon-not-found"/>
 
@@ -242,9 +259,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={Landscapegardening} alt="icon-not-found"/>
+                        <img src={Landscapegardening} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -254,9 +272,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={waterfacility} alt="icon-not-found"/>
+                        <img src={waterfacility} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
@@ -266,9 +285,10 @@ or design -bid - build, fixed price, and negotiated contracts.
                 </div>
 
                 <div className="col-md-6 col-12 col-lg-4">
-                    <div className="single-icon-border-box">
+                    <div className="single-icon-border-box border-top">
+                    <div className='top-line'/>
                         <div className="icon2">
-                        <img src={firefight} alt="icon-not-found"/>
+                        <img src={firefight} alt="icon-not-found" className="icons-box-ani"/>
 
                         </div>
                         <div className="content">
