@@ -26,10 +26,10 @@ const HeaderOne = () => {
     <>
     <OffsetMenu offset={offset} handleOffset={handleOffset}  />
     <header className="header-wrap header-1">
-        <div className="container-fluid d-flex justify-content-between align-items-center">
+        <div className="container d-flex justify-content-between align-items-center">
             <div className="logo">
                 <Link to='/'>
-                    <img src={mainLogo} alt="logo"/>
+                    <img src={mainLogo} alt="logo" className="logo-img"/>
                 </Link>
             </div>
             <div className="header-right-area d-flex">

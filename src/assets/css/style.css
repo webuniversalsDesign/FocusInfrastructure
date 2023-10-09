@@ -2389,7 +2389,7 @@ header.header-1 {
 
 @media (max-width: 1349px) {
   header.header-1 {
-    padding: 20px 0px;
+    padding: 5px 0px;
   }
 }
 
@@ -2411,7 +2411,7 @@ header.header-1 .main-menu ul > li {
 header.header-1 .main-menu ul > li > a {
   display: inline-block;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 13px;
   text-transform: uppercase;
   line-height: 1;
   padding: 25px 20px;
@@ -11510,4 +11510,15 @@ transition: all .3s ease-in-out;
 .border-top:hover .top-line{
   height: 5px;
   width: 100%;
+}
+
+.activeTab{
+  background-color: #FF5E14 !important;
+  color: #fff !important;
+}
+
+
+.logo-img{
+  height: auto;
+  width: 150px;
 }

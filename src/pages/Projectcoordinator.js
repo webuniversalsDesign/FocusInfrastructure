@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import image1 from '../assets/img/gallery/1.jpg';
+import image1 from '../assets/img/home1/project-coordinator.jpg';
 import image2 from '../assets/img/gallery/5.jpg';
 import image3 from '../assets/img/gallery/6.jpg';
 import HeaderOne from '../Components/Header/HeaderOne';
 import PageBanner from '../Components/PageBanner';
-import bannerBg from '../assets/img/page-banner.jpg';
+import bannerBg from '../assets/img/home1/breadcrumb.jpg';
 import FooterOne from '../Components/Footer/FooterOne';
 
 const Projectcoordinator = () => {
@@ -28,7 +28,7 @@ const Projectcoordinator = () => {
                             <li><Link to="/ManagingDirector">01. MANAGING DIRECTOR</Link></li>
                             <li><Link to="/Accountmanager">02. ACCOUNT MANAGER</Link></li>
                             <li><Link to="/Procurement">03. PROCUREMENT</Link></li>
-                            <li><Link to="/Projectcoordinator">04. PROJECT CO-ORDINATOR</Link></li>
+                            <li><Link to="/Projectcoordinator" className='activeTab'>04. PROJECT CO-ORDINATOR</Link></li>
                             <li><Link to="/Safetyconsultant">05. SAFETY CONSULTANT</Link></li>
                             <li><Link to="/Siteengineer">06. SITE ENGINEER</Link></li>
                         </ul>

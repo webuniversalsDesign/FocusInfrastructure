@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { Routes, Route} from 'react-router-dom';  
+import { Routes, Route, useLocation } from 'react-router-dom';  
 import ScrollTopBtn from './Components/ScrollTopBtn';
 import AboutPage from './pages/AboutPage';
 import ServicePage from './pages/ServicePage';
@@ -23,6 +23,14 @@ import Projectcoordinator from './pages/Projectcoordinator';
 import Safetyconsultant from './pages/Safetyconsultant';
 import Siteengineer from './pages/Siteengineer';
 function App() {
+  
+  const routePath = useLocation(); 
+  const onTop = () => { 
+    window.scrollTo(0, 0); 
+  } 
+  useEffect(() => { 
+    onTop() 
+  }, [routePath]);
 
     return (
     <>
