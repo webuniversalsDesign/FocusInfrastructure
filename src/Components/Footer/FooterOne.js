@@ -72,11 +72,7 @@ Mahalaxmipuram Bangalore
                                         <h3>Newsletter</h3>
                                     </div>
                                     <div className="newsletter_box">
-                                        <form action="#">
-                                            <i className="fal fa-envelope"></i>
-                                            <input value={input} onChange={(e) => setInput(e.target.value)} type="email" placeholder="Enter email address" required/>
-                                            <button onClick={(e) => e.preventDefault()} className="submit-btn" type="submit">Subscribe Now <i className="fas fa-paper-plane"></i></button>
-                                        </form>
+                                        
                                         <p>Opening Hours : <b> Mon - Fri:  9:30 AM - 6 PM</b></p>
                                     </div>
                                 </div>
