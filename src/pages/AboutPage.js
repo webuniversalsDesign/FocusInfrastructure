@@ -29,7 +29,7 @@ const AboutPage = () => {
                 <div className="row align-items-center pb-5 mb-5">
                    
                     <div className="col-xl-6 col-lg-7 col-md-10 col-12">
-                        <div className="block-contents">
+                        <div className="block-contents"> 
                             <div className="section-title">
                                 {/* <span>About Company</span> */}
                                 {/* <h2>Excellence in every project</h2> */}

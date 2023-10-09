@@ -4063,6 +4063,9 @@ header .header-top-bar .top-social-icons a:hover {
 
 .block-contents p {
   margin-top: 15px;
+  font-size: 14px;
+  font-weight: 400;
+
 }
 
 .block-contents blockquote {
@@ -5074,6 +5077,15 @@ transform: rotateX(359deg);
   overflow: hidden;
   font-size: 70px;
   line-height: 1;
+  color: #FF5E14;
+  margin-right: 20px;
+}
+
+.single-icon-border-box .icon2 {
+  float: left;
+  overflow: hidden;
+  font-size: 0px;
+  line-height: 0;
   color: #FF5E14;
   margin-right: 20px;
 }
