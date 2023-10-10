@@ -70,7 +70,7 @@ or design -bid - build, fixed price, and negotiated contracts.
 
                         </div>
                         <div className="content">
-                            <h6><span> Scaffolding </span> Work</h6>
+                            <h6><span> Scaffolding Work</span> </h6>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ or design -bid - build, fixed price, and negotiated contracts.
 
                         </div>
                         <div className="content">
-                            <h6><span>  Electrical </span> Work</h6>
+                            <h6><span>  Electrical Work</span> </h6>
                         </div>
                     </div>
                 </div>
@@ -292,7 +292,7 @@ or design -bid - build, fixed price, and negotiated contracts.
 
                         </div>
                         <div className="content">
-                            <h6><span>    Firefighting facilities  work  </span> </h6>
+                            <h6><span>Firefighting facilities  work</span> </h6>
                         </div>
                     </div>
                 </div>

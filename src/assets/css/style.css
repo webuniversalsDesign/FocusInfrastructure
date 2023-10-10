@@ -10808,10 +10808,14 @@ height: 200px;
 
 .footer-bottom p {
   color: #fff;
+  font-size: 14px;
+
+  
 }
 
 .footer-bottom p a {
   color: #FF5E14;
+  font-size: 14px;
 }
 
 .footer-wrap .single-footer-wid {
