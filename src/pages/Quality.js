@@ -52,6 +52,10 @@ const Quality = () => {
             </div>
             <p>This strategic approach ensures that every facet of the project aligns seamlessly, setting the stage for precision and excellence in execution.</p>
           
+            <h2>Adherence to Global Standards</h2>
+            <p>Our commitment to quality extends beyond borders. We adhere strictly to international quality standards, incorporating the latest advancements and best practices in the industry. This dedication ensures that our infrastructure not only meets but often exceeds global benchmarks, standing as a testament to our pursuit of excellence.</p>
+            
+
             <h2>Skilled Craftsmanship</h2>
             <p>Quality craftsmanship is at the heart of our operations. Our team comprises skilled professionals who bring a wealth of expertise to every project. From architects and engineers to construction workers, each member is dedicated to the highest standards of workmanship, contributing to the creation of structures that stand the test of time.</p>
             
