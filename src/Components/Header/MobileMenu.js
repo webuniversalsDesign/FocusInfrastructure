@@ -17,7 +17,7 @@ const MobileMenu = ({mobileMenu, handleMobileMenu}) => {
                         <li><Link to="/homeFour">homepage 4</Link></li>
                     </ul> */}
                 </li>
-                <li><Link to="/">about us</Link></li>
+                <li><Link to="/about">about us</Link></li>
                 <li><Link to="/">Services</Link></li>
                 {/* <li>
                     <a className="has-arrow" href="#">Pages</a>
@@ -28,14 +28,14 @@ const MobileMenu = ({mobileMenu, handleMobileMenu}) => {
                     </ul>
                 </li> */}
                 {/* <li><Link to="/news">News</Link></li> */}
-                <li><Link to="/">Contact</Link></li>
+                {/* <li><Link to="/contact">Contact</Link></li> */}
             </ul>
         </nav>
 
         <div className="action-bar">
             <a href="mailto:info@example.com"><i className="fal fa-envelope"></i>focusInfrastructures@gmail.com</a>
             <a href="tel:"><i className="fal fa-phone"></i>000 XXX XXX</a>
-            <Link to='/' className="d-btn theme-btn">Contact Us</Link>
+            <Link to='/contact' className="d-btn theme-btn">Contact Us</Link>
         </div>
     </div>    
      

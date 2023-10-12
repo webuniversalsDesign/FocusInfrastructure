@@ -2998,6 +2998,7 @@ header .header-top-bar .top-social-icons a:hover {
   color: #fff;
   display: block;
   margin-top: 12px;
+font-size: 14px;
 }
 
 .action-bar a i {
