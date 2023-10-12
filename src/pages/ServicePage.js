@@ -8,6 +8,7 @@ import ServicesCta from "../Components/Services/ServicesCta";
 import BestFeatures from "../Components/Features/BestFeatures";
 import Pricing from "../Components/Price/Pricing";
 import FaqOne from "../Components/Faq/FaqOne";
+import ServicesTwo from '../Components/Services/ServicesTwo';
 
 const ServicePage = () => {
   return (
