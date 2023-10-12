@@ -28,6 +28,8 @@ import Quality from './pages/Quality';
 import TAT from './pages/TAT';
 import Integrity from './pages/Integrity';
 import CustomerSatisfaction from './pages/CustomerSatisfaction';
+import ProjectManager from './pages/ProjectManager';
+import BusinessHead from './pages/BusinessHead';
 function App() {
   
   const routePath = useLocation(); 
@@ -63,6 +65,8 @@ function App() {
         <Route path="/Projectcoordinator" element={<Projectcoordinator />} />
         <Route path="/Safetyconsultant" element={<Safetyconsultant />} />
         <Route path="/Siteengineer" element={<Siteengineer />} />
+        <Route path="/ProjectManager" element={<ProjectManager />} />
+        <Route path="/BusinessHead" element={<BusinessHead/>} />
 
         <Route path="/Creativity" element={<Creativity/>}/>
         <Route path="/Safety" element={<Safety/>}/>

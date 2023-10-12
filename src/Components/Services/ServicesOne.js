@@ -16,21 +16,21 @@ const ServicesOne = () => {
         <div className="block-contents">
                         <div className="section-title">
                             {/* <span>02. Featured Service</span> */}
-                            <h2>Company Hierarchy Chart</h2>
+                            {/* <h2>Company Hierarchy Chart</h2> */}
                             <br/>
                         </div>
                         {/* <p>Our promise as a contractor is to build strong community value into every projects</p> */}
                     </div>
             <div className="row mtm-30">
-                {/* <div className="col-md-6 col-12 col-lg-4 mt-30">
+                <div className="col-md-6 col-12 col-lg-4 mt-30">
                     <div className="block-contents">
                         <div className="section-title">
                          <span>02. Featured Service</span> 
                             <h2>Company Hierarchy Chart</h2>
                         </div>
-                        <p>Our promise as a contractor is to build strong community value into every projects</p> 
+                        {/* <p>Our promise as a contractor is to build strong community value into every projects</p>  */}
                     </div>
-                </div>  */}
+                </div> 
   
                   
 
@@ -126,6 +126,40 @@ const ServicesOne = () => {
                                 </div>
                                 <div className="contents resp-content">
                                     <h4><Link to="/Siteengineer">SITE ENGINEER</Link></h4>
+                                    {/* <h4><Link to="/servicesDetails">SITE ENGINEER</Link></h4> */}
+                                    {/* <p>{data.desc}</p> */}
+                                </div>
+                            </div>
+                        </Link>
+                            
+                        </div>
+
+                        <div className="col-md-6 col-12 col-lg-4 mt-30" >
+                        <Link to="/BusinessHead">
+                            <div className="single-service-box style-1">
+                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg1})`}}></div>
+                                <div className="icon">
+                                 <MdEngineering/>
+                                </div>
+                                <div className="contents resp-content">
+                                    <h4><Link to="/Siteengineer">BUSINESS HEAD</Link></h4>
+                                    {/* <h4><Link to="/servicesDetails">SITE ENGINEER</Link></h4> */}
+                                    {/* <p>{data.desc}</p> */}
+                                </div>
+                            </div>
+                        </Link>
+                            
+                        </div>
+
+                        <div className="col-md-6 col-12 col-lg-4 mt-30" >
+                        <Link to="/ProjectManager">
+                            <div className="single-service-box style-1">
+                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg1})`}}></div>
+                                <div className="icon">
+                                 <MdEngineering/>
+                                </div>
+                                <div className="contents resp-content">
+                                    <h4><Link to="/Siteengineer">PROJECT MANAGER</Link></h4>
                                     {/* <h4><Link to="/servicesDetails">SITE ENGINEER</Link></h4> */}
                                     {/* <p>{data.desc}</p> */}
                                 </div>
