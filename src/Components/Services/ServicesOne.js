@@ -6,8 +6,8 @@ import { BsShieldFillCheck, BsPersonFillGear } from "react-icons/bs";
 // import { FaGraduationCap } from "react-icons/fa";
 import { LuPackageSearch } from "react-icons/lu";
 import { MdEngineering, MdSwitchAccount } from "react-icons/md";
-
-
+import {AiOutlineFundProjectionScreen} from 'react-icons/ai'
+import {FaBuildingUser} from 'react-icons/fa6';
 const ServicesOne = () => {
     return (
         <section className="our-service-wrapper mt-5 pt-5 pb-5 bg-gray">
@@ -49,6 +49,40 @@ const ServicesOne = () => {
                         </Link>
                         
 
+                        </div>
+
+                        <div className="col-md-6 col-12 col-lg-4 mt-30" >
+                        <Link to="/BusinessHead">
+                            <div className="single-service-box style-1">
+                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg1})`}}></div>
+                                <div className="icon">
+                                 <FaBuildingUser/>
+                                </div>
+                                <div className="contents resp-content">
+                                    <h4><Link to="/BusinessHead">BUSINESS HEAD</Link></h4>
+                                    {/* <h4><Link to="/servicesDetails">SITE ENGINEER</Link></h4> */}
+                                    {/* <p>{data.desc}</p> */}
+                                </div>
+                            </div>
+                        </Link>
+                            
+                        </div>
+
+                        <div className="col-md-6 col-12 col-lg-4 mt-30" >
+                        <Link to="/ProjectManager">
+                            <div className="single-service-box style-1">
+                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg1})`}}></div>
+                                <div className="icon">
+                                 <AiOutlineFundProjectionScreen/>
+                                </div>
+                                <div className="contents resp-content">
+                                    <h4><Link to="/ProjectManager">PROJECT MANAGER</Link></h4>
+                                    {/* <h4><Link to="/servicesDetails">SITE ENGINEER</Link></h4> */}
+                                    {/* <p>{data.desc}</p> */}
+                                </div>
+                            </div>
+                        </Link>
+                            
                         </div>
 
                         <div className="col-md-6 col-12 col-lg-4 mt-30" >
@@ -134,39 +168,7 @@ const ServicesOne = () => {
                             
                         </div>
 
-                        <div className="col-md-6 col-12 col-lg-4 mt-30" >
-                        <Link to="/BusinessHead">
-                            <div className="single-service-box style-1">
-                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg1})`}}></div>
-                                <div className="icon">
-                                 <MdEngineering/>
-                                </div>
-                                <div className="contents resp-content">
-                                    <h4><Link to="/BusinessHead">BUSINESS HEAD</Link></h4>
-                                    {/* <h4><Link to="/servicesDetails">SITE ENGINEER</Link></h4> */}
-                                    {/* <p>{data.desc}</p> */}
-                                </div>
-                            </div>
-                        </Link>
-                            
-                        </div>
-
-                        <div className="col-md-6 col-12 col-lg-4 mt-30" >
-                        <Link to="/ProjectManager">
-                            <div className="single-service-box style-1">
-                                <div className="service-bg bg-cover" style={{backgroundImage: `url(${bg1})`}}></div>
-                                <div className="icon">
-                                 <MdEngineering/>
-                                </div>
-                                <div className="contents resp-content">
-                                    <h4><Link to="/ProjectManager">PROJECT MANAGER</Link></h4>
-                                    {/* <h4><Link to="/servicesDetails">SITE ENGINEER</Link></h4> */}
-                                    {/* <p>{data.desc}</p> */}
-                                </div>
-                            </div>
-                        </Link>
-                            
-                        </div>
+                     
 
                    
                  
