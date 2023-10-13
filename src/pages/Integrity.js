@@ -1,12 +1,12 @@
 import React from 'react';
 import HeaderOne from '../Components/Header/HeaderOne';
 import PageBanner from '../Components/PageBanner';
-import bannerBg from '../assets/img/page-banner.jpg';
+import bannerBg from '../assets/img/home1/breadcrumb.jpg';
 import FooterOne from '../Components/Footer/FooterOne';
 import { Link } from "react-router-dom";
-import image1 from '../assets/img/gallery/1.jpg';
-import image2 from '../assets/img/gallery/5.jpg';
-import image3 from '../assets/img/gallery/6.jpg';
+import image1 from '../assets/img/home1/integrity.jpg';
+import image2 from '../assets/img/home1/integrity-inner1.jpg';
+import image3 from '../assets/img/home1/integrity-inner2.jpg';
 
 const Integrity = () => {
   return (

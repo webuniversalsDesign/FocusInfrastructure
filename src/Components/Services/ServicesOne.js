@@ -142,7 +142,7 @@ const ServicesOne = () => {
                                  <MdEngineering/>
                                 </div>
                                 <div className="contents resp-content">
-                                    <h4><Link to="/Siteengineer">BUSINESS HEAD</Link></h4>
+                                    <h4><Link to="/BusinessHead">BUSINESS HEAD</Link></h4>
                                     {/* <h4><Link to="/servicesDetails">SITE ENGINEER</Link></h4> */}
                                     {/* <p>{data.desc}</p> */}
                                 </div>
@@ -159,7 +159,7 @@ const ServicesOne = () => {
                                  <MdEngineering/>
                                 </div>
                                 <div className="contents resp-content">
-                                    <h4><Link to="/Siteengineer">PROJECT MANAGER</Link></h4>
+                                    <h4><Link to="/ProjectManager">PROJECT MANAGER</Link></h4>
                                     {/* <h4><Link to="/servicesDetails">SITE ENGINEER</Link></h4> */}
                                     {/* <p>{data.desc}</p> */}
                                 </div>

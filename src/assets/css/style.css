@@ -4175,11 +4175,14 @@ font-size: 14px;
 }
 
 .page-banner-wrap {
-  background-color: #001659;
+  background-color: rgba(0, 0, 0, 0.5);
   padding-top: 140px;
   padding-bottom: 120px;
   position: relative;
   z-index: 1;
+  background-blend-mode:darken;
+  background-size: cover;
+  width: 100%;
 }
 
 @media (max-width: 991px) {

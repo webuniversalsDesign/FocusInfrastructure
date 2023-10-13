@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import image1 from '../assets/img/home1/project-coordinator.jpg';
+import image1 from '../assets/img/home1/project-manager.jpg';
 import image2 from '../assets/img/gallery/5.jpg';
 import image3 from '../assets/img/gallery/6.jpg';
 import HeaderOne from '../Components/Header/HeaderOne';
