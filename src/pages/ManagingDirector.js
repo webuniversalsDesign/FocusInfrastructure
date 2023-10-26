@@ -27,13 +27,16 @@ const ManagingDirector = () => {
                                     </div>
                                     <ul>
                                         <li ><Link to="/ManagingDirector" className='activeTab'>01. MANAGING DIRECTOR</Link></li>
-                                        <li><Link to="/Accountmanager">02. ACCOUNT MANAGER</Link></li>
-                                        <li><Link to="/Procurement">03. PROCUREMENT</Link></li>
-                                        <li><Link to="/Projectcoordinator">04. PROJECT CO-ORDINATOR</Link></li>
-                                        <li><Link to="/Safetyconsultant">05. SAFETY CONSULTANT</Link></li>
-                                        <li><Link to="/Siteengineer">06. SITE ENGINEER</Link></li>
-                                        <li><Link to="/BusinessHead" >07. BUSINESS HEAD</Link></li>
-                            <li><Link to="/ProjectManager" >08. PROJECT MANAGER</Link></li>
+                                        <li><Link to="/BusinessHead" >02. BUSINESS HEAD</Link></li>
+                            <li><Link to="/ProjectManager" >03. PROJECT MANAGER</Link></li>
+                                        <li><Link to="/Accountmanager">04. ACCOUNT MANAGER</Link></li>
+                                        <li><Link to="/Procurement">05. PROCUREMENT</Link></li>
+                                        <li><Link to="/Projectcoordinator">06. PROJECT CO-ORDINATOR</Link></li>
+<li><Link to="/Safetyconsultant">07. SAFETY CONSULTANT</Link></li>
+ <li><Link to="/Siteengineer">08. SITE ENGINEER</Link></li>
+                                        
+                                        
+                                       
                                     </ul>
                                 </div>
 

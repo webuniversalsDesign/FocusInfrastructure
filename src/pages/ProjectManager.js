@@ -20,21 +20,24 @@ const ProjectManager = () => {
         <div className="row">
             <div className="col-lg-3 col-md-4 mt-5 mt-md-0 col-12 order-2 order-md-1">
                 <div className="service-details-sidebar" style={{ position: "sticky", top: "10px" }}>
-                    <div className="single-service-sidebar">
-                        <div className="sidebar-title">
-                            <h3>HIERARCHY CHART</h3>
-                        </div>
-                        <ul>
-                            <li><Link to="/ManagingDirector">01. MANAGING DIRECTOR</Link></li>
-                            <li><Link to="/Accountmanager">02. ACCOUNT MANAGER</Link></li>
-                            <li><Link to="/Procurement">03. PROCUREMENT</Link></li>
-                            <li><Link to="/Projectcoordinator" >04. PROJECT CO-ORDINATOR</Link></li>
-                            <li><Link to="/Safetyconsultant">05. SAFETY CONSULTANT</Link></li>
-                            <li><Link to="/Siteengineer">06. SITE ENGINEER</Link></li>
-                            <li><Link to="/BusinessHead" >07. BUSINESS HEAD</Link></li>
-                            <li><Link to="/ProjectManager" className='activeTab'>08. PROJECT MANAGER</Link></li>
-                        </ul>
-                    </div>
+                <div className="single-service-sidebar">
+                                    <div className="sidebar-title">
+                                        <h3>HIERARCHY CHART</h3>
+                                    </div>
+                                    <ul>
+                                        <li ><Link to="/ManagingDirector" >01. MANAGING DIRECTOR</Link></li>
+                                        <li><Link to="/BusinessHead" >02. BUSINESS HEAD</Link></li>
+                            <li><Link to="/ProjectManager" className='activeTab'>03. PROJECT MANAGER</Link></li>
+                                        <li><Link to="/Accountmanager">04. ACCOUNT MANAGER</Link></li>
+                                        <li><Link to="/Procurement">05. PROCUREMENT</Link></li>
+                                        <li><Link to="/Projectcoordinator">06. PROJECT CO-ORDINATOR</Link></li>
+<li><Link to="/Safetyconsultant">07. SAFETY CONSULTANT</Link></li>
+ <li><Link to="/Siteengineer">08. SITE ENGINEER</Link></li>
+                                        
+                                        
+                                       
+                                    </ul>
+                                </div>
 
 
                 </div>

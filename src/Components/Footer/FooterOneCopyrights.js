@@ -10,7 +10,7 @@ const FooterOneCopyrights = () => {
                 <div className="row align-items-center">
                     <div className="col-md-7 col-12 text-center text-md-start">
                         <div className="copyright-info">
-                            <p>&copy; {currentYear} Copyright By <Link to="/">Focus Infrastructures</Link>. All Rights Reserved  Design & Hosted By <a href='https://webuniversals.co.in/'  rel="noreferrer" target='_blank' >Web Universals</a> </p>                            
+                            <p>&copy; {currentYear} Copyright By <Link to="/">Focus Infrastructures</Link>. All Rights Reserved | Design & Hosted By <a href='https://webuniversals.co.in/'  rel="noreferrer" target='_blank' >Web Universals</a> </p>                            
                         </div>
                     </div>
                     <div className="col-md-5 col-12">
